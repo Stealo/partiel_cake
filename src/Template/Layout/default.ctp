@@ -44,6 +44,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <ul>
             <li><?= $this->Form->postLink('Evénements', ['controller' => 'Events', 'action' => 'index']) ?></li>
             <li><?= $this->Form->postLink('Mon compte', ['controller' => 'Users', 'action' => 'index']) ?></li>
+            <li><?= $this->Form->postLink('Messagerie', ['controller' => 'Messages', 'action' => 'index']) ?></li>
         </ul>
     </nav>
 </div>
